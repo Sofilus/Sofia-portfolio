@@ -1,0 +1,21 @@
+.hamburgermenu {
+    height: 50px;
+    width: 60px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 25px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+};
+
+.line{
+    background-color: black;
+    width: 35px;
+    height: 5px;
+    display: block;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+};
