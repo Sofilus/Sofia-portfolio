@@ -1,3 +1,5 @@
+@use 'variables' as var;
+
 .firstpageContainer{
     height: 650px;
     border: black solid 2px;
@@ -11,6 +13,8 @@
         width: 200px;
         margin: 0 auto;
         text-align: center;
+        font-family: $fontRubiks;
+        font-size: 2rem;
     }
 
     h2{
@@ -19,6 +23,8 @@
         width: 300px;
         margin: 0 auto;
         text-align: center;
+        font-family: $fontRubiks;
+        font-size: 1.3rem;
     }
 
     img{
@@ -30,8 +36,10 @@
 
     .moreAboutMeText{
         height: 50px;
-        width: 100px;
+        width: 200px;
         margin: 0 auto;
         margin-top: 50px;
+        font-family: $fontText;
+        font-size: 1.4rem;
     }
 }
