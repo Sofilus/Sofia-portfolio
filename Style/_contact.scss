@@ -1,0 +1,35 @@
+@use 'variables' as var;
+
+.contact-container{
+    height: 400px;
+    border: black solid 2px;
+
+    h2{
+        height: 50px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+        text-align: center;
+        font-family: var.$fontRubiks;
+        font-size: 2rem;
+    }
+
+    .contact-text-wrapper{
+        height: 90px;
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        font-family: var.$fontText;
+        font-size: 1rem;
+    }
+
+    .contact-icons-wrapper{
+        height: 150px;
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        font-size: 5rem;
+    }
+}
