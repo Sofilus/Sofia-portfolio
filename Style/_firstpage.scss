@@ -13,7 +13,7 @@
         width: 200px;
         margin: 0 auto;
         text-align: center;
-        font-family: $fontRubiks;
+        font-family: var.$fontRubiks;
         font-size: 2rem;
     }
 
@@ -23,7 +23,7 @@
         width: 300px;
         margin: 0 auto;
         text-align: center;
-        font-family: $fontRubiks;
+        font-family: var.$fontRubiks;
         font-size: 1.3rem;
     }
 
@@ -43,7 +43,7 @@
             height: 50px;
             width: 130px;
             margin-top: 50px;
-            font-family: $fontText;
+            font-family: var.$fontText;
             font-size: 1.4rem;
         } 
 
