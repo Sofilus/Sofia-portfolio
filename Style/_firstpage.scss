@@ -1,6 +1,6 @@
 @use 'variables' as var;
 
-.firstpageContainer{
+.firstpage-container{
     height: 650px;
     border: black solid 2px;
     margin: 0;
@@ -34,12 +34,24 @@
         border-radius: 10px;
     }
 
-    .moreAboutMeText{
-        height: 50px;
-        width: 200px;
-        margin: 0 auto;
-        margin-top: 50px;
-        font-family: $fontText;
-        font-size: 1.4rem;
+    .more-about-me-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+       .more-about-me-text{
+            height: 50px;
+            width: 130px;
+            margin-top: 50px;
+            font-family: $fontText;
+            font-size: 1.4rem;
+        } 
+
+        .fa-arrow-down{
+            
+          margin-top: 10px;
+            
+            font-size: 3rem;
+        }
     }
 }
