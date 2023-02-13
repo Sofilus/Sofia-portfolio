@@ -55,12 +55,15 @@
         font-size: 1.3rem;
         }
 
-        .skills-ul-container {
+        
+
+            .skills-ul-container {
             display: flex;
 
             .skills-dots{
             list-style: none;
             font-family: var.$fontText;
+            
 
                 li{
 
@@ -70,6 +73,8 @@
                     border-radius: 50%;
                     background-color:rgb(181, 181, 181);
                     margin-top: 11px;
+
+                    
                 }
             }
 
@@ -81,9 +86,13 @@
                 li{
                     margin-top: 13px;
                     margin-bottom: 16px;
+                    border-radius: 1px;
+                    
                 }
             }
         }
+     }
+
+        
         
     }
-}
