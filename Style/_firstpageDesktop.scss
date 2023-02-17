@@ -1,0 +1,52 @@
+@use 'variables' as var;
+
+@media screen and (min-width: 1024px){
+    h1{
+        width: 500px;
+        font-size: 4rem;
+    }
+
+.frontend{
+    width: 500px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.flex-firstpage{
+    display: flex;
+
+    .firstpage-container{
+        
+        width: 425px;
+
+        img{
+            max-width: 280px;
+        }
+
+        .more-about-me-container{
+            display: none;
+        }
+    }
+
+    .about-me-container{
+        width: 350px;
+        height: 420px;
+        margin-top: 50px;
+        background-color: transparent;
+        color: white;
+
+        h2{
+            font-size: 2rem;
+        }
+    
+        p{
+            font-size: 1.3rem;
+        }
+    }
+}
+
+}
+
+
+
+
