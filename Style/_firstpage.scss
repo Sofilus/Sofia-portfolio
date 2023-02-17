@@ -55,3 +55,41 @@
         }
     }
 }
+
+@media screen and (min-width: 500px){
+    .firstpage-container{
+    
+        h1{
+           
+            line-height: 100px;
+            width: 300px;
+            font-size: 3rem;
+        }
+    
+        h2{
+            line-height: 70px;
+            width: 350px;
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+    
+        img{
+            margin-top: 20px;
+            max-width: 280px;
+        }
+    
+        .more-about-me-container{
+        
+           .more-about-me-text{
+                margin-top: 40px;
+                font-size: 1.6rem;
+                margin-right: 15px;
+            } 
+    
+            .fa-arrow-down{
+              margin-top: 5px;
+            }
+        }
+    }
+
+}
