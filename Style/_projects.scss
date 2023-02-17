@@ -49,7 +49,33 @@
             width: 170px;
             border-radius: 10px;
         }
+    }
+}
 
-        
+@media screen and (min-width: 500px){
+    .projects-container{
+    
+        h2{
+            margin-top: 50px;
+        }
+    
+        .fa-arrow-left{
+            top: 150px;
+            left: -60px;
+            font-size: 4rem;
+        }
+    
+        .fa-arrow-right{
+            top: -210px;
+            left: 320px;
+            font-size: 4rem;
+        }
+    
+        .project-card{
+    
+            img{
+                width: 250px;
+            }
+        }
     }
 }
