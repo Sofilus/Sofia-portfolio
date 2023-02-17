@@ -1,3 +1,5 @@
+@use 'variables' as var;
+
 *{
     box-sizing: border-box;
 }
@@ -14,7 +16,14 @@ body{
         background-color: rgba(24, 24, 24, 0.931);
         margin: 0 auto;
         border-radius: 10px;
-        
     }
 }
 
+@media screen and (min-width: 500px){
+
+    body{
+        .header-and-main-container{
+             max-width: 500px;
+        }
+    }
+}
