@@ -4,6 +4,47 @@
     min-height:400px;
     color: rgb(216, 211, 211);
 
+    .skills-card{
+        min-height: 300px;
+        width: 280px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+            .skills-ul-container {
+                border-top: rgb(255, 255, 255) solid 2px;
+                border-bottom: rgb(255, 255, 255) solid 2px;
+                display: flex;
+
+            .skills-dots{
+                list-style: none;
+                font-family: var.$fontText;
+            
+                li{
+                    height: 25px;
+                    width: 25px;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    border-radius: 50%;
+                    background-color: rgba(103, 97, 97, 0.406);
+                    box-shadow: rgba(255, 255, 255, 0.341) 0px 2px 4px 0px, rgba(255, 255, 255, 0.274) 0px 2px 16px 0px;
+                    margin-top: 11px;
+                }
+            }
+
+            .skills-text{
+                list-style: none;
+                font-family: var.$fontText;
+                padding-left: 15px;
+
+                li{
+                    margin-top: 13px;
+                    margin-bottom: 16px;
+                    border-radius: 1px;
+                }
+            }
+        }
+     }
+
     h2{
         height: 50px;
         width: 300px;
@@ -23,80 +64,30 @@
        
         .education-1{
             width: 250px;
-            height: 150px;
-            border-top: rgb(255, 255, 255) solid 2px;
-            margin: 0 auto;
+            height: 130px;
+            margin: 0 auto; 
+            background-color: rgba(103, 97, 97, 0.406);
+            border-radius: 10px;
+            box-shadow: rgba(255, 255, 255, 0.341) 0px 2px 4px 0px, rgba(255, 255, 255, 0.523) 0px 2px 16px 0px;
+
+            h3{
+                height: 30px;
+                line-height: 60px;
+            }
         }
 
         .education-2{
             width: 250px;
-            height: 150px;
-            border-top: rgb(255, 255, 255) solid 2px;
-            border-bottom: rgb(255, 255, 255) solid 2px;
+            height: 130px;
             margin: 0 auto;
-        }
-    }
+            background-color: rgba(103, 97, 97, 0.406);
+            border-radius: 10px;
+            box-shadow: rgba(255, 255, 255, 0.341) 0px 2px 4px 0px, rgba(255, 255, 255, 0.821) 0px 2px 16px 0px;
 
-    .skills-card{
-        min-height: 300px;
-        width: 280px;
-        color: white;
-        
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        background-color: rgba(103, 97, 97, 0.406);
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-        h3{
-        height: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0;
-        text-align: center;
-        font-family: var.$fontRubiks;
-        font-size: 1.3rem;
-        }
-
-        
-
-            .skills-ul-container {
-            display: flex;
-
-            .skills-dots{
-            list-style: none;
-            font-family: var.$fontText;
-            
-
-                li{
-
-                    height: 25px;
-                    width: 25px;
-                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                    border-radius: 50%;
-                    background-color:rgba(31, 27, 27, 0.995);
-                    margin-top: 11px;
-
-                    
-                }
-            }
-
-            .skills-text{
-                list-style: none;
-                font-family: var.$fontText;
-                padding-left: 15px;
-
-                li{
-                    margin-top: 13px;
-                    margin-bottom: 16px;
-                    border-radius: 1px;
-                    
-                }
+            h3{
+                height: 30px;
+                line-height: 60px;
             }
         }
-     }
-
-        
-        
-    }
+    }       
+}
