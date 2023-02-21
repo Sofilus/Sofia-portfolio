@@ -1,0 +1,33 @@
+@use 'variables' as var;
+
+@media screen and (min-width: 1024px){
+    .education-container{
+        display: flex;
+        justify-content: space-around;
+    
+        .education-wrapper{
+
+            .education-1{
+
+                h3{
+                    font-size: 1.6rem;
+                }
+
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+    
+            .education-2{
+            
+                h3{
+                    font-size: 1.6rem;
+                }
+
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+        }       
+    }
+}
