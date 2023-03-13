@@ -1,2 +1,4 @@
 import './style/style.scss';
-import './JS/projects';
+import { createProjectCards } from './TS/projects';
+
+createProjectCards();
